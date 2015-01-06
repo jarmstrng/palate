@@ -27,4 +27,14 @@ feature 'Create Event' do
       find('form#new_user').fill_in "Confirm Password", with: "test123"
       click_button 'Sign Up'
   end
+
+  # def sign_up_with(email, password)
+  #   visit root_path
+  #   click_link "Login/Signup"
+  #     fill_in "Name", with: "Name"
+  #     find('form#new_user').fill_in "Email", with: email
+  #     find('form#new_user').fill_in "Password", with: password
+  #     find('form#new_user').fill_in "Confirm Password", with: password
+  #     click_button 'Sign Up'
+  # end
 end
